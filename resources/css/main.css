@@ -1,0 +1,47 @@
+:root
+{
+    /* define as variáveis de cores */
+    --footer-color: rgb(7, 23, 74);
+    --text-color: rgb(75, 75, 75);
+    --footer-text-color: "#DEDEDE";
+}
+
+*
+/* aplica essas características para todo o documento */
+{
+    margin: 0;
+    padding: 0;
+    /* tamanho da caixa é considerado até a borda, e não até o fim do conteúdo */
+    box-sizing: border-box;
+}
+
+html
+{
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+
+body
+{
+    -webkit-font-smoothing: antialised;
+}
+
+p
+{
+    color: var(--text-color);
+    font-family: Montserrat, Montserrat, sans-serif;    
+    font-size: 19px;
+    line-height: 1.5em;
+}
+
+a
+{
+    /* faz com que as decorações de todos os links sejam retiradas: no caso do link, é retirado o estilo sublinhado*/
+    text-decoration: none;
+}
+
+/* Define uma cor e uma fonte para todos os títulos */
+h1, h2, h3, h4, h5, h6
+{
+    
+}
