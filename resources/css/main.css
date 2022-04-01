@@ -2,8 +2,10 @@
 {
     /* define as variáveis de cores */
     --footer-color: rgb(7, 23, 74);
-    --text-color: rgb(75, 75, 75);
     --footer-text-color: "#DEDEDE";
+    --text-color: rgb(75, 75, 75);
+    --published-text-color: rgb(255, 255, 255, 0.68);
+    --link-color: rgb(2, 90, 203);
 }
 
 *
@@ -37,7 +39,12 @@ p
 a
 {
     /* faz com que as decorações de todos os links sejam retiradas: no caso do link, é retirado o estilo sublinhado*/
-    text-decoration: none;
+    color: var(--link-color);
+    font-weight: 800;
+    text-decoration: underline;
+    font-family: Montserrat, Montserrat, sans-serif;
+    font-size: 19px;
+    line-height: 1.5em;
 }
 
 /* Define uma cor e uma fonte para todos os títulos */
