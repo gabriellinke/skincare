@@ -2,7 +2,7 @@
 {
     /* define as variáveis de cores */
     --footer-color: rgb(7, 23, 74);
-    --footer-text-color: "#DEDEDE";
+    --footer-text-color: #DEDEDE;
     --text-color: rgb(75, 75, 75);
     --published-text-color: rgb(255, 255, 255, 0.68);
     --link-color: rgb(2, 90, 203);

@@ -48,6 +48,26 @@ body {
     padding: 20px;
 }
 
+#main a
+{
+    /* faz com que as decorações de todos os links sejam retiradas: no caso do link, é retirado o estilo sublinhado*/
+    color: var(--link-color);
+    font-weight: 800;
+    text-decoration: underline;
+    font-family: Montserrat, Montserrat, sans-serif;
+    font-size: 19px;
+    line-height: 1.5em;
+}
+
+#main p
+{
+    color: var(--text-color);
+    font-family: Montserrat, Montserrat, sans-serif;    
+    font-size: 19px;
+    line-height: 1.5em;
+}
+
+
 #main a.button {
     font-weight: 500;
     text-decoration: none;
@@ -106,9 +126,58 @@ div.image-text {
     padding: 20px;
 }
 
-#footer {
+footer#footer {
     background-color: var(--footer-color);
     color: var(--footer-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+footer#footer div.container {
+    max-width: 720px;
+    padding: 20px;
+    margin: 0;
+}
 
+footer#footer p {
+    color: var(--footer-text-color);
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+
+    margin: 12px 0;
+}
+
+footer#footer a {
+    color: var(--footer-text-color);
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+
+    margin: 12px 0;
+}
+
+footer#footer a:hover {
+    text-decoration: underline;
+    transition: 200ms;
+    color: white;
+}
+
+footer#footer div {
+    color: var(--footer-text-color);
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+
+    margin: 12px 0;
+}
