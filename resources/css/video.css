@@ -38,9 +38,66 @@ div.video {
     padding-bottom: 48px;
 }
 
-#footer {
+footer#footer2 {
     background-color: var(--footer-color);
     color: var(--footer-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+footer#footer2 div.container {
+    max-width: 720px;
+    padding: 20px;
+    margin: 0;
+}
+
+footer#footer2 p {
+    color: var(--footer-text-color);
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+
+    margin: 12px 0;
+}
+
+footer#footer2 a {
+    color: var(--footer-text-color);
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;    
+    font-weight: bold;
+
+
+    margin: 12px 0;
+}
+
+footer#footer2 a:hover {
+    text-decoration: underline;
+    transition: 200ms;
+    color: white;
+}
+
+footer#footer2 div {
+    color: var(--footer-text-color);
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+
+    margin: 12px 0;
+}
+
+footer#footer2 p.bold {
+    font-weight: bold;
+}
+
 
 
