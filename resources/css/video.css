@@ -31,7 +31,8 @@ div.image-container {
 
 div.video {
     margin: auto;
-    width: 50%;
+    max-width: 720px;
+    width: 90%;
     /* min-height: 80vh; */
 
     padding-bottom: 48px;
