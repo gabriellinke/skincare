@@ -14,7 +14,18 @@ header {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;
 
     z-index: 5;
+
 }
+
+header h1 {
+    font-size: 24px;
+}
+header p {
+    font-size: 12px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
 
 body {
     margin-top: 32px;
@@ -38,7 +49,7 @@ div.video {
     padding-bottom: 48px;
 }
 
-footer#footer2 {
+footer#footer {
     background-color: var(--footer-color);
     color: var(--footer-text-color);
     display: flex;
@@ -46,58 +57,50 @@ footer#footer2 {
     align-items: center;
 }
 
-footer#footer2 div.container {
+footer#footer div.container {
     max-width: 720px;
     padding: 20px;
     margin: 0;
 }
 
-footer#footer2 p {
+footer#footer p {
     color: var(--footer-text-color);
     font-size: 12px;
-    line-height: 16px;
+    line-height: 15px;
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-decoration: none;
     font-weight: 500;
 
     margin: 12px 0;
 }
 
-footer#footer2 a {
+footer#footer a {
     color: var(--footer-text-color);
     font-size: 12px;
-    line-height: 16px;
+    line-height: 15px;
     text-align: center;
-    font-family: Helvetica, sans-serif;
-    text-decoration: none;    
-    font-weight: bold;
-
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
 
     margin: 12px 0;
 }
 
-footer#footer2 a:hover {
+footer#footer a:hover {
     text-decoration: underline;
     transition: 200ms;
     color: white;
 }
 
-footer#footer2 div {
+footer#footer div {
     color: var(--footer-text-color);
     font-size: 12px;
-    line-height: 16px;
+    line-height: 15px;
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-decoration: none;
     font-weight: 500;
 
     margin: 12px 0;
 }
-
-footer#footer2 p.bold {
-    font-weight: bold;
-}
-
-
-
