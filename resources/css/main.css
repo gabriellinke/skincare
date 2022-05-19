@@ -8,6 +8,7 @@
     --published-text-color: rgb(255, 255, 255, 0.68);
     --link-color: rgb(2, 90, 203);
     --button-color: #FC8700;
+    --background-color: rgb(238,238,238);
 }
 
 *
@@ -47,10 +48,4 @@ a
     font-family: Montserrat, Montserrat, sans-serif;
     font-size: 19px;
     line-height: 1.5em;
-}
-
-/* Define uma cor e uma fonte para todos os títulos */
-h1, h2, h3, h4, h5, h6
-{
-    
 }
